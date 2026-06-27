@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | Mellow Mushroom Menu Guide</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="./favicon/favicon.ico">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/menu.css">
+  <style>
+    .not-found-hero {
+      text-align: center;
+      padding: var(--space-12) 0;
+      background: var(--background);
+    }
+    .not-found-code {
+      font-size: 8rem;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 0 rgba(226, 88, 34, 0.2);
+    }
+    .not-found-message {
+      font-size: 1.5rem;
+      color: var(--text);
+      margin-bottom: 2rem;
+    }
+    .search-box {
+      max-width: 400px;
+      margin: 0 auto 3rem;
+      display: flex;
+      gap: 0.5rem;
+    }
+    .search-box input {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      border: 2px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+    .popular-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body class="no-hero">
+
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
+  <div class="mobile-menu__header"><span class="mobile-menu__logo">Mellow Mushroom Menu</span><button id="mobile-close" class="mobile-close" aria-label="Close navigation">✕</button></div>
+  <ul class="mobile-nav" role="list">
+    <li><a href="./index.html" class="mobile-nav-link">🏠 Home</a></li>
+    <li><a href="./menu/index.html" class="mobile-nav-link">🍕 Menu</a></li>
+    <li><a href="./locations/index.html" class="mobile-nav-link">📍 Locations</a></li>
+    <li><a href="./faq/index.html" class="mobile-nav-link">❓ FAQ</a></li>
+    <li><a href="./contact/index.html" class="mobile-nav-link">✉️ Contact</a></li>
+  </ul>
+</nav>
+
+<header id="site-header" class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="./index.html" class="header-logo" aria-label="Home"><div class="header-logo__text"><span class="name">Mellow Mushroom Menu</span><span class="tagline">Prices &amp; Guides</span></div></a>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <div class="nav-item"><a href="./index.html" class="nav-link">Home</a></div>
+      <div class="nav-item has-dropdown"><a href="./menu/index.html" class="nav-link" aria-haspopup="true" aria-expanded="false">Menu <span class="nav-caret" aria-hidden="true"></span></a></div>
+      <div class="nav-item"><a href="./locations/index.html" class="nav-link">Locations</a></div>
+      <div class="nav-item"><a href="./faq/index.html" class="nav-link">FAQ</a></div>
+    </nav>
+    <div class="header-actions"><a href="./order-online/index.html" class="btn btn-primary btn-sm header-cta hide-mobile">Order Online</a><button id="hamburger" class="hamburger" aria-label="Open navigation"><span></span><span></span><span></span></button></div>
+  </div>
+</header>
+
+<main id="main-content" tabindex="-1">
+
+  <section class="not-found-hero">
+    <div class="container reveal">
+      <div class="not-found-code">404</div>
+      <h1 class="not-found-message">Oops! Looks like this slice is missing.</h1>
+      
+      <div class="search-box">
+        <input type="text" placeholder="Search our site..." aria-label="Search">
+        <button class="btn btn-primary" onclick="window.location.href='/faq/'">Search</button>
+      </div>
+
+      <div class="btn-group" style="justify-content:center;">
+        <a href="./index.html" class="btn btn-primary btn-lg">Back to Homepage</a>
+      </div>
+
+      <div style="margin-top: 4rem;">
+        <h2 style="font-size:1.25rem; color:var(--gray-600); margin-bottom:1rem;">Popular Destinations</h2>
+        <div class="popular-links">
+          <a href="./menu/pizza/index.html" class="btn btn-ghost">Pizza Menu</a>
+          <a href="./menu/index.html" class="btn btn-ghost">Full Menu</a>
+          <a href="./locations/index.html" class="btn btn-ghost">Locations</a>
+          <a href="./dining-guide/index.html" class="btn btn-ghost">Dining Guide</a>
+          <a href="./faq/index.html" class="btn btn-ghost">FAQ</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="./index.html" class="footer-logo" aria-label="Home"><div class="footer-logo__text">Mellow Mushroom Menu<span>Prices &amp; Guides</span></div></a></div>
+      <nav class="footer-nav-col"><h4>Quick Links</h4><ul class="footer-nav-list"><li><a href="./index.html">Home</a></li><li><a href="./menu/index.html">Full Menu</a></li><li><a href="./locations/index.html">Locations</a></li><li><a href="./faq/index.html">FAQ</a></li></ul></nav>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom"><p class="footer-copyright">&copy; <span id="footer-year"></span> mellowmushroommenuwithprices.us</p></div>
+  </div>
+</footer>
+
+<script src="./assets/js/header.js" defer></script>
+<script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

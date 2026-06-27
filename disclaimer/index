@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disclaimer | Mellow Mushroom Menu Guide</title>
+  <meta name="description" content="Important disclaimer regarding the independent nature of this informational website, price estimates, and trademark ownership.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mellowmushroommenuwithprices.us/disclaimer/">
+  <meta property="og:title" content="Disclaimer | Independent Website Notice">
+  <meta property="og:description" content="Please read our disclaimer detailing our independent status, pricing estimate accuracy, and limitation of liability.">
+  <meta property="og:url" content="https://mellowmushroommenuwithprices.us/disclaimer/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon/favicon.ico">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/menu.css">
+  <style>
+    .disclaimer-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .warning-card {
+      background: #fff5f5;
+      border: 1px solid var(--danger);
+      border-left: 6px solid var(--danger);
+      padding: var(--space-6);
+      border-radius: var(--radius-md);
+      margin-bottom: var(--space-8);
+      box-shadow: var(--shadow-sm);
+    }
+    .warning-card h2 {
+      color: var(--danger);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .disclaimer-section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: var(--space-6);
+      border-radius: var(--radius-lg);
+      margin-bottom: var(--space-6);
+      box-shadow: var(--shadow-sm);
+    }
+    .disclaimer-section h3 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      font-size: 1.35rem;
+    }
+    .disclaimer-section p {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+    .disclaimer-section p:last-child {
+      margin-bottom: 0;
+    }
+    .icon-box {
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "WebPage", "url": "https://mellowmushroommenuwithprices.us/disclaimer/", "name": "Disclaimer" },
+      { "@type": "BreadcrumbList", "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mellowmushroommenuwithprices.us/" },
+        { "@type": "ListItem", "position": 2, "name": "Disclaimer", "item": "https://mellowmushroommenuwithprices.us/disclaimer/" }
+      ]}
+    ]
+  }
+  </script>
+</head>
+<body class="no-hero">
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div id="mobile-backdrop" class="mobile-menu-backdrop" role="presentation" aria-hidden="true"></div>
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
+  <div class="mobile-menu__header"><span class="mobile-menu__logo">Mellow Mushroom Menu</span><button id="mobile-close" class="mobile-close" aria-label="Close navigation">✕</button></div>
+  <ul class="mobile-nav" role="list">
+    <li><a href="../index.html" class="mobile-nav-link">🏠 Home</a></li>
+    <li><a href="../menu/index.html" class="mobile-nav-link">🍕 Menu</a></li>
+    <li><a href="../locations/index.html" class="mobile-nav-link">📍 Locations</a></li>
+    <li><a href="../faq/index.html" class="mobile-nav-link">❓ FAQ</a></li>
+    <li><a href="../contact/index.html" class="mobile-nav-link">✉️ Contact</a></li>
+  </ul>
+</nav>
+
+<header id="site-header" class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="../index.html" class="header-logo" aria-label="Home"><div class="header-logo__text"><span class="name">Mellow Mushroom Menu</span><span class="tagline">Prices &amp; Guides</span></div></a>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <div class="nav-item"><a href="../index.html" class="nav-link">Home</a></div>
+      <div class="nav-item has-dropdown"><a href="../menu/index.html" class="nav-link" aria-haspopup="true" aria-expanded="false">Menu <span class="nav-caret" aria-hidden="true"></span></a><div class="mega-dropdown" role="menu"><div class="mega-dropdown__header">Browse the Menu</div><div class="mega-grid"><a href="../menu/pizza/index.html" class="mega-item" role="menuitem"><div class="mega-item__icon"><img src="../Images/House Special.avif" alt="Pizza" width="48" height="48" loading="lazy" decoding="async"></div><span class="mega-item__name">Pizza</span></a><a href="../menu/calzones/index.html" class="mega-item" role="menuitem"><div class="mega-item__icon"><img src="../Images/Build Your Own Calzone.avif" alt="Calzones" width="48" height="48" loading="lazy" decoding="async"></div><span class="mega-item__name">Calzones</span></a><a href="../menu/appetizers/index.html" class="mega-item" role="menuitem"><div class="mega-item__icon"><img src="../Images/Pretzel Bites.avif" alt="Appetizers" width="48" height="48" loading="lazy" decoding="async"></div><span class="mega-item__name">Appetizers</span></a><a href="../menu/wings/index.html" class="mega-item" role="menuitem"><div class="mega-item__icon"><img src="../Images/10 Wings.avif" alt="Wings" width="48" height="48" loading="lazy" decoding="async"></div><span class="mega-item__name">Wings</span></a><a href="../menu/salads/index.html" class="mega-item" role="menuitem"><div class="mega-item__icon"><img src="../Images/Caesar Supreme.avif" alt="Salads" width="48" height="48" loading="lazy" decoding="async"></div><span class="mega-item__name">Salads</span></a><a href="../menu/sandwiches/index.html" class="mega-item" role="menuitem"><div class="mega-item__icon"><img src="../Images/Italian Hoagie.avif" alt="Sandwiches" width="48" height="48" loading="lazy" decoding="async"></div><span class="mega-item__name">Sandwiches</span></a><a href="../menu/desserts/index.html" class="mega-item" role="menuitem"><div class="mega-item__icon"><img src="../Images/Mary Jane's Triple Chocolate Brownie.avif" alt="Desserts" width="48" height="48" loading="lazy" decoding="async"></div><span class="mega-item__name">Desserts</span></a><a href="../menu/drinks/index.html" class="mega-item" role="menuitem"><div class="mega-item__icon"><img src="../Images/22 oz. Coker.avif" alt="Drinks" width="48" height="48" loading="lazy" decoding="async"></div><span class="mega-item__name">Drinks</span></a></div></div></div>
+      <div class="nav-item"><a href="../locations/index.html" class="nav-link">Locations</a></div>
+      <div class="nav-item"><a href="../faq/index.html" class="nav-link">FAQ</a></div>
+    </nav>
+    <div class="header-actions"><a href="../order-online/index.html" class="btn btn-primary btn-sm header-cta hide-mobile">Order Online</a><button id="hamburger" class="hamburger" aria-label="Open navigation"><span></span><span></span><span></span></button></div>
+  </div>
+</header>
+
+<main id="main-content" tabindex="-1">
+
+  <div class="breadcrumb-bar">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb__item"><a href="../index.html">Home</a><span class="breadcrumb__sep" aria-hidden="true">›</span></li>
+          <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">Disclaimer</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <section class="menu-hero" aria-label="Disclaimer hero">
+    <div class="menu-hero__img">
+      <img src="../Images/House Special.avif" alt="Legal Disclaimer" width="1920" height="700" loading="eager" decoding="async" fetchpriority="high">
+    </div>
+    <div class="menu-hero__overlay" aria-hidden="true"></div>
+    <div class="container menu-hero__content">
+      <span class="menu-hero__eyebrow">⚖️ Legal Information</span>
+      <h1>Important <span class="text-gradient-warm">Disclaimer</span></h1>
+      <p class="menu-hero__desc">Please review our disclaimer regarding the independent nature of this website, accuracy of estimates, and limitation of liability.</p>
+    </div>
+  </section>
+
+  <section class="section bg-white">
+    <div class="container disclaimer-container">
+      
+      <!-- Primary Warning Box -->
+      <div class="warning-card reveal">
+        <h2>⚠️ No Affiliation Statement</h2>
+        <p>This website, mellowmushroommenuwithprices.us, is an independent informational website created to provide general menu overviews, estimated pricing ranges, dining tips, comparison tables, and customer resources related to Mellow Mushroom restaurants.</p>
+        <p style="margin-top:1rem; font-weight:600;">This website is NOT affiliated with, endorsed by, sponsored by, or connected to Mellow Mushroom, its parent company, franchise owners, employees, or the official website in any way.</p>
+      </div>
+
+      <!-- Information Sections -->
+      <div class="disclaimer-section reveal delay-100">
+        <h3><span class="icon-box">®️</span> Trademark Disclaimer</h3>
+        <p>We have no business relationship with the brand and do not receive compensation, commissions, or special access from them. All trademarks, service marks, logos, and brand names referenced on this site belong to their respective owners. Any use of these names is for identification and informational purposes only.</p>
+      </div>
+
+      <div class="disclaimer-section reveal">
+        <h3><span class="icon-box">💵</span> Price Accuracy Notice</h3>
+        <p>The menu items, descriptions, ingredients lists, estimated prices, calorie information, and other details presented here are approximations based on publicly available reports, diner feedback, and typical patterns observed across various U.S. locations in recent years. Because the vast majority of Mellow Mushroom restaurants are independently owned and operated franchises, actual menu offerings, prices, preparation methods, and availability can and do vary significantly from one location to another and can change at any time without notice.</p>
+        <p><strong>Prices may vary by location.</strong> Factors such as local operating costs, ingredient sourcing, labor rates, and competitive pricing in each market affect what you will actually pay. The price ranges and examples shown in tables and item descriptions are estimates only and should not be relied upon as exact or current quotes. Taxes, delivery fees, service charges, and tips are additional and are not included in the estimates provided.</p>
+      </div>
+
+      <div class="disclaimer-section reveal delay-100">
+        <h3><span class="icon-box">👤</span> User Responsibility</h3>
+        <p><strong>Users should always verify current prices, menu availability, ingredients, allergens, and preparation details directly through the official Mellow Mushroom website, app, or by contacting the specific restaurant location before placing an order or making dining decisions.</strong> This website is not a substitute for official information. Relying solely on the content here for ordering or budgeting decisions is done at your own risk.</p>
+      </div>
+
+      <div class="disclaimer-section reveal">
+        <h3><span class="icon-box">📝</span> Content Accuracy &amp; Liability</h3>
+        <p>We make reasonable efforts to keep information accurate and up to date, but we cannot guarantee the completeness, accuracy, reliability, or timeliness of any content. Menu items may be discontinued, recipes may change, and pricing updates may occur between our content updates. Nutritional information and allergen details can also change.</p>
+        <p>This website and its owners, operators, and contributors shall not be held liable for any losses, damages, or issues arising from the use of or reliance on the information provided, including but not limited to incorrect pricing expectations, dietary or allergen reactions, service experiences, or decisions made based on the content of this site. We are not responsible for the accuracy of third-party links, reviews, or external sources mentioned.</p>
+      </div>
+
+      <div class="disclaimer-section reveal delay-100">
+        <h3><span class="icon-box">🤝</span> Legal Acknowledgment</h3>
+        <p>By using this website, you acknowledge that you understand it is an independent, non-official resource and that you will independently verify all critical information with Mellow Mushroom directly. We provide this content in good faith to help diners make more informed choices, but final responsibility for ordering, payment, and dining decisions rests with you.</p>
+        <p style="margin-top:1rem;">If you have any concerns about the information presented or believe something requires correction, please use the contact methods described on the site. We appreciate feedback that helps us maintain a helpful and transparent resource for the public.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA / Related Pages -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Navigate Our Site</h2>
+      </div>
+      <div class="btn-group" style="justify-content:center; flex-wrap:wrap;">
+        <a href="../index.html" class="btn btn-ghost">Homepage</a>
+        <a href="../menu/index.html" class="btn btn-ghost">Menu</a>
+        <a href="../locations/index.html" class="btn btn-ghost">Locations</a>
+        <a href="../faq/index.html" class="btn btn-ghost">FAQ</a>
+        <a href="../privacy-policy/index.html" class="btn btn-ghost">Privacy Policy</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<button id="back-to-top" class="back-to-top" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg></button>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="../index.html" class="footer-logo" aria-label="Home"><div class="footer-logo__text">Mellow Mushroom Menu<span>Prices &amp; Guides</span></div></a><p class="footer-brand__desc">Independent resource for Mellow Mushroom menu prices and restaurant information.</p><div class="footer-disclaimer" role="note"><strong>Disclaimer:</strong> Prices are estimates only. Not affiliated with Mellow Mushroom.</div></div>
+      <nav class="footer-nav-col" aria-label="Quick links"><h4>Quick Links</h4><ul class="footer-nav-list" role="list"><li><a href="../index.html">Home</a></li><li><a href="../menu/index.html">Full Menu</a></li><li><a href="../locations/index.html">Locations</a></li><li><a href="../faq/index.html">FAQ</a></li><li><a href="../contact/index.html">Contact</a></li></ul></nav>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom"><p class="footer-copyright">&copy; <span id="footer-year"></span> mellowmushroommenuwithprices.us · <a href="../privacy-policy/index.html">Privacy Policy</a> · <a href="../disclaimer/index.html">Disclaimer</a></p></div>
+  </div>
+</footer>
+
+<script src="../assets/js/header.js" defer></script>
+<script src="../assets/js/animations.js" defer></script>
+<script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

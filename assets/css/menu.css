@@ -1,0 +1,399 @@
+/* ════════════════════════════════════════════════════════════
+   MENU & SUBPAGE STYLES (menu.css)
+════════════════════════════════════════════════════════════ */
+
+/* Utilities specifically for spacing used in HTML inline styles occasionally */
+:root {
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+}
+
+/* ════════════════════════════════════════════════════════════
+   1. MENU HERO & HEADERS
+════════════════════════════════════════════════════════════ */
+.menu-hero {
+  padding: calc(var(--spacing-section) + 40px) 0 var(--spacing-xl);
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.menu-hero h1 {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-sm);
+}
+
+.menu-hero h1 .text-gradient-warm {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.menu-hero__desc {
+  font-size: 1.15rem;
+  color: var(--color-text-muted);
+  max-width: 800px;
+  margin: 0 auto var(--spacing-lg);
+  line-height: 1.6;
+}
+
+.menu-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.menu-hero__stat {
+  background: var(--color-surface);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-pill);
+  font-size: 0.9rem;
+  color: var(--color-text);
+  box-shadow: 0 2px 8px var(--color-shadow);
+  border: 1px solid var(--color-border);
+}
+
+.menu-hero__stat strong {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* ════════════════════════════════════════════════════════════
+   2. FILTER BAR & SEARCH
+════════════════════════════════════════════════════════════ */
+.menu-filter-bar {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--spacing-md) 0;
+  position: sticky;
+  top: 70px; /* Below header */
+  z-index: 90;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+.menu-filter-bar__inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  justify-content: space-between;
+}
+
+.filter-label {
+  font-weight: 700;
+  color: var(--color-text);
+  font-family: var(--font-heading);
+}
+
+.filter-chips {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.filter-chip {
+  padding: 6px 16px;
+  border-radius: var(--radius-pill);
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  transition: all var(--transition-fast);
+}
+
+.filter-chip:hover {
+  background: var(--color-surface);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.filter-chip.is-active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+.menu-search-inline__input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.menu-search-inline__input svg {
+  position: absolute;
+  left: 12px;
+  color: var(--color-text-muted);
+}
+
+.menu-search-inline__input input {
+  padding: 8px 16px 8px 36px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  font-size: 0.9rem;
+  width: 200px;
+  transition: all var(--transition-fast);
+}
+
+.menu-search-inline__input input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(200, 16, 46, 0.1);
+  width: 250px;
+}
+
+/* ════════════════════════════════════════════════════════════
+   3. PRICING NOTE & NAV
+════════════════════════════════════════════════════════════ */
+.pricing-note {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  background: rgba(255, 184, 28, 0.1);
+  border-left: 4px solid var(--color-secondary);
+  padding: var(--spacing-md);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xl);
+}
+
+.pricing-note svg {
+  color: var(--color-secondary-dark);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.menu-page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xl);
+}
+
+.menu-page-nav__link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  padding: 4px 12px;
+  background: rgba(200, 16, 46, 0.05);
+  border-radius: var(--radius-md);
+}
+
+.menu-page-nav__link:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* ════════════════════════════════════════════════════════════
+   4. MENU GRID & CARDS
+════════════════════════════════════════════════════════════ */
+.menu-section {
+  padding: var(--spacing-xl) 0;
+}
+
+.menu-section-title {
+  font-size: 2rem;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-bg-alt);
+  padding-bottom: var(--spacing-sm);
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.menu-item-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.menu-item-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px var(--color-shadow);
+  border-color: transparent;
+}
+
+.menu-item-card__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+}
+
+.menu-item-card__body {
+  padding: var(--spacing-md);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-sm);
+  gap: var(--spacing-sm);
+}
+
+.menu-item-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.menu-item-card__price {
+  font-weight: 800;
+  color: var(--color-primary);
+  font-size: 1.15rem;
+  background: rgba(200, 16, 46, 0.08);
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+.menu-item-card__desc {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: var(--spacing-md);
+  flex: 1;
+}
+
+.menu-item-card__tags {
+  display: flex;
+  gap: var(--spacing-xs);
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+}
+
+.tag-veg { background: rgba(42, 157, 143, 0.1); color: #2A9D8F; }
+.tag-gf { background: rgba(255, 184, 28, 0.15); color: #B37D00; }
+.tag-spicy { background: rgba(200, 16, 46, 0.1); color: var(--color-primary); }
+
+/* ════════════════════════════════════════════════════════════
+   5. TABLES & PROSE (FAQ, ABOUT)
+════════════════════════════════════════════════════════════ */
+.prose {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.prose h2, .prose h3 {
+  margin-top: var(--spacing-xl);
+  color: var(--color-primary-dark);
+}
+
+.prose p {
+  margin-bottom: var(--spacing-md);
+}
+
+.prose ul, .prose ol {
+  margin-bottom: var(--spacing-md);
+  padding-left: var(--spacing-xl);
+}
+
+.prose li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.table-responsive {
+  overflow-x: auto;
+  margin: var(--spacing-lg) 0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  border-radius: var(--radius-md);
+}
+
+.table-responsive table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-surface);
+  min-width: 600px;
+}
+
+.table-responsive th,
+.table-responsive td {
+  padding: var(--spacing-md);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.table-responsive th {
+  background: var(--color-bg-alt);
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--color-text);
+}
+
+.table-responsive tr:last-child td {
+  border-bottom: none;
+}
+
+.table-responsive tbody tr:hover {
+  background: var(--color-surface-hover);
+}
+
+/* ════════════════════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  .menu-hero {
+    padding: calc(var(--spacing-section) + 20px) 0 var(--spacing-lg);
+  }
+
+  .menu-filter-bar__inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .menu-search-inline__input input {
+    width: 100%;
+  }
+
+  .menu-search-inline__input input:focus {
+    width: 100%;
+  }
+
+  .pricing-note {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

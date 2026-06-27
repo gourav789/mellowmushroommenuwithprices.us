@@ -1,0 +1,16 @@
+{
+  "name": "Mellow Mushroom Menu Guide",
+  "short_name": "Mellow Menu",
+  "description": "Independent informational guide for Mellow Mushroom menu prices and restaurant information.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e25822",
+  "icons": [
+    {
+      "src": "/favicon/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
